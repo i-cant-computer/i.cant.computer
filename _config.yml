@@ -17,8 +17,7 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
 
-theme: minima
-
+remote_theme: jekyll/minima
 minima:
   skin: dark
 
