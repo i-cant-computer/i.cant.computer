@@ -1,0 +1,50 @@
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server 
+# process.
+
+title: I can't computer
+email: george@can't.computer
+description: |-
+  sometimes peering into the matrix over a keyboard...
+  others banging my head on it
+baseurl: ""
+url: "https://i.cant.computer"
+twitter_username: icantcomputer
+github_username:  i-cant-computer
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+
+theme: minima
+
+minima:
+  skin: dark
+
+markdown: kramdown
+highlighter: rouge
+
+rouge:
+  theme: thankful-eyes
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
